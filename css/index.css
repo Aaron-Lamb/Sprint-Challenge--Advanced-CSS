@@ -1,3 +1,9 @@
+.margins {
+  margin: 1% 1% 1% 3%;
+}
+.ninetywidth {
+  width: 90%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -163,7 +169,7 @@ p {
 .navsection {
   height: 20vh;
   background-color: whitesmoke;
-  margin: 1% 1% 0% 1%;
+  margin: 1% 1% 1% 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -171,15 +177,16 @@ p {
 .navsection .navheader {
   font-size: 420%;
   margin-top: 2%;
+  padding-right: 7%;
 }
 .navsection .navbar {
-  width: 70%;
+  width: 90%;
 }
 .navsection .navbar .navanchors {
   font-size: 170%;
-  margin: 3% 0% 1% 3%;
+  margin: 1% 1% 1% 3%;
   padding-left: 20%;
-  width: 100%;
+  width: 90%;
 }
 .navsection .navbar .navanchors a {
   padding-right: 5%;
